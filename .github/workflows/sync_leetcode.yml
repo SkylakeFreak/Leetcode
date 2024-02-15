@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Sync
-        uses: SkylakeFreak/leetcode-sync@v1.5
+        uses: Utkarsh_barde/leetcode-sync@v1.5
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           leetcode-csrf-token: ${{ secrets.LEETCODE_CSRF_TOKEN }}
